@@ -1,0 +1,68 @@
+/* Dashboard.css */
+.dashboard-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  .dashboard-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+  }
+  
+  .dashboard-stats {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .stat-card {
+    background: #007bff;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  .total-clients {
+    background: #28a745;
+  }
+  
+  .total-bookings {
+    background: #dc3545;
+  }
+  
+  .table-container {
+    overflow-x: auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  thead {
+    background: #007bff;
+    color: white;
+  }
+  
+  thead th, tbody td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  tbody tr:nth-child(even) {
+    background: #f9f9f9;
+  }
+  
